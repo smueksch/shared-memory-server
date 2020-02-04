@@ -1,3 +1,6 @@
+# VIM temporary files
+*.swp
+
 # Prerequisites
 *.d
 
@@ -30,3 +33,6 @@
 *.exe
 *.out
 *.app
+
+# Exclude server executable
+server
