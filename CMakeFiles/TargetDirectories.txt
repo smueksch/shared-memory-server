@@ -1,3 +1,4 @@
 /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/rebuild_cache.dir
 /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/edit_cache.dir
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/client.dir
 /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/server.dir

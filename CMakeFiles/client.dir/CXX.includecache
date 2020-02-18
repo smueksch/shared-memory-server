@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/server.cpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/client.cpp
 cstdlib
 -
 csignal
@@ -14,10 +14,6 @@ csignal
 iostream
 -
 string
--
-thread
--
-chrono
 -
 fcntl.h
 -
