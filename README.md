@@ -28,3 +28,4 @@ $ server 42
 # Resources Used
 
 - [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [Shutdown Signal Handling](https://stackoverflow.com/questions/1641182/how-can-i-catch-a-ctrl-c-event)

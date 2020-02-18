@@ -9,6 +9,14 @@
 /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/server.cpp
 cstdlib
 -
+csignal
+-
 iostream
+-
+string
+-
+thread
+-
+chrono
 -
 
