@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/server.cpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/server.cpp
 cstdlib
 -
 csignal

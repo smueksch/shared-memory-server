@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/client.cpp" "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/client.dir/client.cpp.o"
+  "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/client/client.cpp" "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/client.dir/src/client/client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

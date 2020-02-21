@@ -35,5 +35,4 @@
 *.app
 
 # Exclude server executable
-server
-client
+bin

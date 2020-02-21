@@ -11,6 +11,8 @@ $ cmake .
 $ cmake --build .
 ```
 
+The compiled binaries will be places in a newly generated ```bin``` folder in the project root directory.
+
 # Usage
 
 ## Server

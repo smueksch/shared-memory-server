@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/server.dir/server.cpp.o"
-  "server"
-  "server.pdb"
+  "CMakeFiles/server.dir/src/server/server.cpp.o"
+  "bin/server"
+  "bin/server.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
