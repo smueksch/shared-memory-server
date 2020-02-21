@@ -39,10 +39,14 @@ shared_memory.hpp
 /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/shared_memory.hpp
 
 src/common/shared_memory.hpp
+cstdio
+-
 fcntl.h
 -
 sys/mman.h
 -
 unistd.h
+-
+string
 -
 
