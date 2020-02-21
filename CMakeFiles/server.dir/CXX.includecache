@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.cpp
+handlers.hpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.hpp
+
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.hpp
+cstdio
+-
+string
+-
+iostream
+-
+shared_memory.hpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/shared_memory.hpp
+
 /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/server.cpp
 cstdlib
 -
@@ -19,6 +33,12 @@ thread
 -
 chrono
 -
+handlers.hpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.hpp
+shared_memory.hpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/shared_memory.hpp
+
+src/common/shared_memory.hpp
 fcntl.h
 -
 sys/mman.h

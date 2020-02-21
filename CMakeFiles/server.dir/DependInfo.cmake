@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.cpp" "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/server.dir/src/server/handlers.cpp.o"
   "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/server.cpp" "/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles/server.dir/src/server/server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "src/common"
   )
 
 # Targets to which this target links.
