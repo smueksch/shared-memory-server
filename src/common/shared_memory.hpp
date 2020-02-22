@@ -63,6 +63,7 @@ class Channel {
         };
 
         Channel();
+        ~Channel();
 
         void create(std::string channel_name,
                     off_t channel_size,
@@ -75,17 +76,20 @@ class Channel {
 
     protected:
         // Map the shared memory file into memory.
-        virtual void map_to_memory();
+        virtual void map_to_memory() {}
 
         std::string name;
         off_t size;
-        file_t descriptor;
+        file_t file_descriptor;
 };
 
 // Channel which is used to establish a connection between the server and the
 // client.
-class ConnectionRequestChannel : Channel {
+class ConnectionRequestChannel : public Channel {
     public:
+        ConnectionRequestChannel();
+        ~ConnectionRequestChannel();
+
         // Overwrite function with predetermined size.
         void create(std::string channel_name,
                     Channel::Flags flags);
@@ -101,8 +105,11 @@ class ConnectionRequestChannel : Channel {
 
 // Channel representing connection between server and client. Both server and
 // client will have one instance of these.
-class DataChannel : Channel {
+class DataChannel : public Channel {
     public:
+        DataChannel();
+        ~DataChannel();
+
         struct Data {
             dc_flag_t operation_flag;
             dc_id_t bucket_id;

@@ -57,9 +57,22 @@ include CMakeFiles/server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/server.dir/flags.make
 
+CMakeFiles/server.dir/src/common/shared_memory.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/common/shared_memory.cpp.o: src/common/shared_memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/common/shared_memory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/common/shared_memory.cpp.o -c /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/common/shared_memory.cpp
+
+CMakeFiles/server.dir/src/common/shared_memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/common/shared_memory.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/common/shared_memory.cpp > CMakeFiles/server.dir/src/common/shared_memory.cpp.i
+
+CMakeFiles/server.dir/src/common/shared_memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/common/shared_memory.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/common/shared_memory.cpp -o CMakeFiles/server.dir/src/common/shared_memory.cpp.s
+
 CMakeFiles/server.dir/src/server/handlers.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/src/server/handlers.cpp.o: src/server/handlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/server/handlers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/src/server/handlers.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/server/handlers.cpp.o -c /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.cpp
 
 CMakeFiles/server.dir/src/server/handlers.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/server.dir/src/server/handlers.cpp.s: cmake_force
 
 CMakeFiles/server.dir/src/server/server.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/src/server/server.cpp.o: src/server/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/src/server/server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/src/server/server.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/server/server.cpp.o -c /Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/server.cpp
 
 CMakeFiles/server.dir/src/server/server.cpp.i: cmake_force
@@ -85,17 +98,19 @@ CMakeFiles/server.dir/src/server/server.cpp.s: cmake_force
 
 # Object files for target server
 server_OBJECTS = \
+"CMakeFiles/server.dir/src/common/shared_memory.cpp.o" \
 "CMakeFiles/server.dir/src/server/handlers.cpp.o" \
 "CMakeFiles/server.dir/src/server/server.cpp.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
+bin/server: CMakeFiles/server.dir/src/common/shared_memory.cpp.o
 bin/server: CMakeFiles/server.dir/src/server/handlers.cpp.o
 bin/server: CMakeFiles/server.dir/src/server/server.cpp.o
 bin/server: CMakeFiles/server.dir/build.make
 bin/server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

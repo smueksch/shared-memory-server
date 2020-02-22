@@ -32,6 +32,13 @@ int main(int arg_c, char** arg_v) {
         std::cout << "Initialising hash table with ";
         std::cout << requested_size << " bucket(s)" << std::endl;
 
+        ConnectionRequestChannel cr_channel;
+
+        cr_channel.create(CONNECTION_REQUEST_CHANNEL_NAME,
+                          Channel::Flags::READ_WRITE);
+
+        cr_channel.close();
+
         return EXIT_SUCCESS;
     }
 }

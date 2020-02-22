@@ -6,39 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.cpp
-handlers.hpp
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.hpp
-
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.hpp
-cstdio
--
-string
--
-iostream
--
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/common/shared_memory.cpp
 shared_memory.hpp
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/shared_memory.hpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/common/shared_memory.hpp
 
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/server.cpp
-cstdlib
--
-csignal
--
-iostream
--
-string
--
-thread
--
-chrono
--
-handlers.hpp
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/handlers.hpp
-shared_memory.hpp
-/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/server/shared_memory.hpp
-
-src/common/shared_memory.hpp
+/Users/LIN/Nextcloud/university/ug-4/phd-applications/shared-memory-server/src/common/shared_memory.hpp
 cstdio
 -
 fcntl.h

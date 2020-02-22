@@ -163,6 +163,33 @@ src/client/client.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client/client.cpp.s
 .PHONY : src/client/client.cpp.s
 
+src/common/shared_memory.o: src/common/shared_memory.cpp.o
+
+.PHONY : src/common/shared_memory.o
+
+# target to build an object file
+src/common/shared_memory.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/common/shared_memory.cpp.o
+.PHONY : src/common/shared_memory.cpp.o
+
+src/common/shared_memory.i: src/common/shared_memory.cpp.i
+
+.PHONY : src/common/shared_memory.i
+
+# target to preprocess a source file
+src/common/shared_memory.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/common/shared_memory.cpp.i
+.PHONY : src/common/shared_memory.cpp.i
+
+src/common/shared_memory.s: src/common/shared_memory.cpp.s
+
+.PHONY : src/common/shared_memory.s
+
+# target to generate assembly for a file
+src/common/shared_memory.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/common/shared_memory.cpp.s
+.PHONY : src/common/shared_memory.cpp.s
+
 src/server/handlers.o: src/server/handlers.cpp.o
 
 .PHONY : src/server/handlers.o
@@ -230,6 +257,9 @@ help:
 	@echo "... src/client/client.o"
 	@echo "... src/client/client.i"
 	@echo "... src/client/client.s"
+	@echo "... src/common/shared_memory.o"
+	@echo "... src/common/shared_memory.i"
+	@echo "... src/common/shared_memory.s"
 	@echo "... src/server/handlers.o"
 	@echo "... src/server/handlers.i"
 	@echo "... src/server/handlers.s"
